@@ -1,0 +1,125 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(196, 184, 184, 0.697);
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: gainsboro;
+}
+header h3 {
+    width: 20%;
+    margin: 0;
+    padding: 1rem;
+    background-color: gray;
+    text-align: center;
+}
+nav {
+    width: 80%;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+}
+li a {
+    width: 4rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1.5rem 1rem 1rem ;
+}
+li a:hover {
+    background-color: rgb(216, 212, 212);
+}
+.home_main section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 8rem 0 0 0;
+}
+.home_main img {
+    width: 100%;
+    height: auto;
+}
+.home_main p {
+    margin: 0;
+}
+
+/* Contact page */
+.contact_main {
+    margin-top: 5rem;
+    padding: 2rem;
+}
+.contact_main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+.contact_content {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+.contact_content div {
+    flex: 1;
+    margin-right: 1rem;
+}
+.contact_content p {
+    margin: 0;
+}
+.contact_content iframe {
+    flex: 2;
+}
+/* Products page */
+.products_main {
+    width: 90%;
+    margin: auto;
+}
+.products_main img {
+    width: 100%;
+    /* height: 100%; */
+}
+.products_main p {
+    margin: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.products_content {
+    display: flex;
+    text-wrap: wrap;
+}
+.products_content h3 {
+    margin: 0;
+}
+.products_content p {
+    padding: 0;
+}
+article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: aliceblue;
+}
+figure {
+    margin: 0;
+    padding-top: 1rem;
+}

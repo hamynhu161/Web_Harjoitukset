@@ -1,0 +1,40 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: azure;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 17px;
+}
+h1 {
+    color: hsl(229, 93%, 47%);
+}
+a:hover {
+    color: rgb(57, 237, 25);
+}
+li {
+    margin-bottom: 2cap;
+}
+ul{
+    list-style-type: none;
+}
+table, th, td {
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(210, 237, 244);
+}
+tr:hover {
+    background-color: rgb(165, 244, 96);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Mikä on HTTP</h1>
+    <p>HTTP on pyyntö-vastaus protokolla: Asiakas lähettää pyynnön, ja palvelin
+vastaa siihen</p>
+    <h1>Miten sivusto toimii</h1>
+    <p>Kun kirjoitat verkko-osoitteen selaimen osoiteriville (tai napsautat verkkosivulla olevaa linkkiä), selain lähettää pyynnön web-palvelimelle. </p>
+    <p>Web-palvelin lähettää vastauksena HTML-tiedoston, joka kuvaa verkkosivun. </p>
+    <p>Jos sivu tarvitsee lisää resursseja (kuten kuvia tai tyylitiedostoja), selain lähettää niistä uudet pyynnöt ja saa resurssit. </p>
+    <img style="border-radius: 20px; border: 2px solid blue;" src="web_code.jpg", alt="code", width="500", height="300"/>
+    <h1>Yleisimmät HTTP-metodit</h1>
+    <p>
+        <ul>
+            <li>GET: Hakee resurssin palvelimelta. Selain käyttää tätä metodia, kun avaat verkkosivun.</li>
+            <li>POST: Lähettää palvelimelle dataa uuden resurssin luomiseksi (esim. lomakkeen lähettäminen).</li>
+            <li>PUT: Päivittää palvelimella olemassa olevan resurssin.</li>
+            <li>DELETE: Poistaa resurssin palvelimelta.</li>
+        </ul>
+        <p> Lue lisää tietoa</p>
+        <a href="https://metropolia-sw.github.io/webdev/fi/01-johdanto-web-teknologioihin.html">Siirry documenttiin</a>
+    </p>
+    <h1>Cascading Style Sheets</h1>
+    <table>
+        <tr>
+            <th>Numero</th>
+            <th>Tyylit</th>
+            <th>Selitä</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ulkoinen tyylitiedosto</td>
+            <td>Lisää HTML-dokumentin <head>-elementtiin</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sisäinen tyylimäärittely</td>
+            <td>Ne koskevat vain kyseistä HTML-dokumenttia</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Elementin omat tyylit</td>
+            <td>Ne koskevat vain tätä elementtiä</td>
+        </tr>
+    </table>
+</body>
+</html>
