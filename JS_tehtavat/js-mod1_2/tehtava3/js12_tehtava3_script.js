@@ -10,4 +10,4 @@ const keskiarvo = summa/3
 
 document.querySelector("#target").innerHTML = `Lukujen summa: ${summa} <br>
 Lukujen tulo: ${tulo} <br> 
-Lukujen keskiarvo: ${keskiarvo}`
+Lukujen keskiarvo: ${keskiarvo.toFixed(2)}`

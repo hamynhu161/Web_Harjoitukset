@@ -11,5 +11,9 @@ Tehdyt tehtävät:
 - Tehtävä 3: 3 p
 - Tehtävä 4: 3 p
 - Tehtävä 5: 3 p
-
-**Yhteensä 12 p**
+- Tehtävä 6: 3 p
+- Tehtävä 7: 2 p
+- Tehtävä 8: 3 p
+- Tehtävä 9: 2 p
+- Tehtävä 10: 5 p
+**Yhteensä 27 p**
