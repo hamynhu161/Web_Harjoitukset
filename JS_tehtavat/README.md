@@ -60,6 +60,8 @@ Tehdyt tehtävät:
 
 [Linkki Python Flask-palvelin kansiooni users.metropolia.fi-palvelussa](https://users.metropolia.fi/~myha/python-flask)
 
+Virtuaaliympäristöä (.venv) ei ole sisällytetty palautukseen.
+
 Tehdyt tehtävät:
 
 - Tehtävä 1: 4 p
@@ -77,7 +79,7 @@ Tehdyt tehtävät:
 - Tehtävä 2: 3 p
 - Tehtävä 3: 7 p
 - Tehtävä 4: 2 p
-- Tehtävä 5: 2 p
-- Tehtävä 6: 4 p
-- Tehtävä 7: 16 p
-**Yhteensä 36 p**
+- Tehtävä 5: 
+- Tehtävä 6: 
+- Tehtävä 7: 
+**Yhteensä  p**
